@@ -1,0 +1,59 @@
+
+
+.image{
+    width: 100%;
+    margin-top:30px;
+    border-style:dotted;
+    border-color: red;
+}     
+.image{
+    position: relative;
+}                
+.info{
+display: inline-block;
+width:150px;
+margin-left: 18px;
+
+}
+.pic{
+display: grid;
+grid-template-columns: 40px 1fr;
+vertical-align: top;
+}
+
+.status{
+    margin-top:0px;
+    width:190px;
+}
+.author{
+    margin-bottom:0px;
+}
+.main{
+    display: inline-block;
+    margin-top: 0px;
+    
+    
+}
+.small{
+    width: 40px;
+    
+    margin-top: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 25px;
+    row-gap: 5px;
+    padding-left: 80px;
+}
+.posit{
+    position: relative;
+}
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right:0px;
+   bottom:9px;
+   border-radius: 5px;
+}
